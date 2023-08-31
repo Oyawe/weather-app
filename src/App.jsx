@@ -4,13 +4,14 @@ import Inputs from "./components/Inputs";
 import TemperatureAndDetails from "./components/TemperatureAndDetails";
 import TimeandLocation from "./components/TimeandLocation";
 import TopButtons from "./components/TopButtons";
-import getWeatherData from "./services/WeatherService";
+import getFormattedWeatherData from "./services/WeatherService";
+// import getWeatherData from "./services/WeatherService";
 // import UilReact from "@iconscout/react-unicons/icons/uil-react";
 
 function App() {
   const fetchWeather = async () => {
     // eslint-disable-next-line no-unused-vars
-    const data = await getWeatherData("weather", { q: "london" });
+    const data = await getFormattedWeatherData({ q: "london" });
     console.log(data);
   };
   fetchWeather();
