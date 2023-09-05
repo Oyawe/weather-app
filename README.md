@@ -6,7 +6,7 @@
 
 This was implemented this using REACT JS and Tailwind CSS.<br>The website is mobile responsive.<br>
 
-### This was supposed to be a full functioning weather app. Unfortunately, `Open Weather Map API` placed pricing on their `onecall` service. which is what i would use to generate the Hourly and Daily Forecast.
+This was supposed to be a full functioning weather app. Unfortunately, `Open Weather Map API` placed pricing on their `onecall` service. which is what i would use to generate the Hourly and Daily Forecast.
 
 ```js
 const formattedForecastWeather = async () =>
