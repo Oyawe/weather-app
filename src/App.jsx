@@ -9,10 +9,9 @@ import TopButtons from "./components/TopButtons";
 function App() {
   return (
     <div className="App">
-      <div className="mx-auto max-w-screen-md mt-4 py-5 bg-gradient-to-br from-cyan-700 to-blue-700 h-fit shadow-xl shadow-gray-600 rounded-2xl">
+      <div className="max-w-screen-md py-5 mx-auto mt-4 shadow-xl bg-gradient-to-br from-cyan-700 to-blue-700 h-fit shadow-gray-600 rounded-2xl">
         <TopButtons />
         <Inputs />
-
         <TimeandLocation />
         <TemperatureAndDetails />
         <Forecast title={"hourly forecast"} />

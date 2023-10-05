@@ -11,7 +11,7 @@ const getWeatherData = (infoType, searchParams) => {
   // eslint-disable-next-line no-unused-vars
   const url = new URL(BASE_URL + "/" + infoType);
   url.search = new URLSearchParams({ ...searchParams, appid: API_KEY });
-  //   console.log(url);
+  // console.log(url);
 
   return fetch(url).then((res) => res.json());
   // .then((data) => data);
